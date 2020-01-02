@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Number.js" defer></script>
+    <script src="CalculatorJS.js" defer></script>
+</head>
+<body>
+    <h1>Calculator JS</h1>
+    <div class="calc">
+        <input type="text" autofocus="autofocus" id="display">
+        <button onclick="getAugend(7);" class="number">7</button>
+        <button onclick="getAugend(8);" class="number">8</button>
+        <button onclick="getAugend(9);" class="number">9</button>
+        <button onclick="operate('+');" class="operation">+</button>
+        <button onclick="getAugend(4);" class="number">4</button>
+        <button onclick="getAugend(5);" class="number">5</button>
+        <button onclick="getAugend(6);" class="number">6</button>
+        <button onclick="operate('-');" class="operation">–</button>
+        <button onclick="getAugend(1);" class="number">1</button>
+        <button onclick="getAugend(2);" class="number">2</button>
+        <button onclick="getAugend(3);" class="number">3</button>
+        <button onclick="operate('*');" class="operation">*</button>
+        <button onclick="getAugend(0);" class="number">0</button>
+        <button onclick="clean();" style="background-color: lightcoral" class="operation">C</button>
+        <button onclick="result();" class="operation">=</button>
+        <button onclick="operate('/');" class="operation">/</button>
+    </div>
+
+</body>
+</html>
