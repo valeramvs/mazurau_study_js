@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="Style.css">
+    <script src="Script.js" defer></script>
+</head>
+<body>
+    <div class="tabs">
+        <div class="tabs_header">
+            <div class="tab" data-tab="0" style="background: #afbcd8">Sign up</div>
+            <div class="tab" data-tab="1">Sign in</div>
+        </div>
+        <div class="tabs_body">
+            <form method="post" class="form_sign_up" autocomplete="off">
+                <p>Enter your email: <input type="email" name="email" autofocus="autofocus" id="email"></p>
+                <p><label id="email_error" class="error"></label></p>
+                <p>Enter your login: <input type="text" name="login_up" id="login_up"></p>
+                <p><label id="login_error" class="error"></label></p>
+                <p>Enter your password: <input type="password" name="password_up" id="password_up"></p>
+                <p><label id="password_error" class="error"></label></p>
+                <input type="submit" value="Sign up" id="sign_up">
+            </form>
+            <form method="post" class="form_sign_in" autocomplete="off">
+                <p>Enter your login: <input type="text" name="login_in" autofocus="autofocus" id="login_in"></p>
+                <p><label id="login_in_error" class="error"></label></p>
+                <p>Enter your password: <input type="password" name="password_in" id="password_in"></p>
+                <p><label id="password_in_error" class="error"></label></p>
+                <input type="submit" value="Sign in" id="sign_in">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

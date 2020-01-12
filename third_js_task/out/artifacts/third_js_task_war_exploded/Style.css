@@ -1,0 +1,42 @@
+/** {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}*/
+.tabs {
+    width: 500px;
+    background: #8f9ab1;
+    margin: 50px auto;
+    padding-bottom: 15px;
+}
+
+form {
+    margin-right: 30%;
+    text-align: right;
+}
+
+#sign_in, #sign_up {
+    display: block;
+    margin-left: 230px;
+    width: 80px;
+    font-size: large;
+    cursor: pointer;
+}
+
+.tab {
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+.form_sign_in {
+    display: none;
+}
+
+.error {
+    color: #bf4747;
+}
